@@ -2,5 +2,5 @@
 int main(){
     float n;
     scanf("%d",&n);
-    printf("Welcome to Code Radar!")
+    printf("Welcome to Code Radar!");
 }
