@@ -2,7 +2,8 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(n & 512 == 0){
+    int c=
+    if(n & 2^31 == 0){
         printf("Set");
     }    
     else{
