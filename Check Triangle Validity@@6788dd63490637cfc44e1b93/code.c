@@ -2,7 +2,7 @@
 int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if ((a>b ||b>c ||c>a) || (b>a ||c>b ||a>c)){
+    if ((a>b ||b>c) || (b>a ||c>b )){
         printf("Valid");
     }
     else{
