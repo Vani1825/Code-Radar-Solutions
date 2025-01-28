@@ -7,12 +7,12 @@ int main(){
         printf("Not Prime");
     }
     else{
-        for(int i>=1;i<=n;i++){
+        for(int i>=2;i<=n;i++){
             if(n%i==0)
-                flag++;  
+                flag==1;  
                 break;  
         }   
-        if(flag==2){
+        if(flag==0){
             printf("Prime");
         }    
         else{
