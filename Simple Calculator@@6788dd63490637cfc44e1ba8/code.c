@@ -17,11 +17,11 @@ int main(){
             y=a/b;
         }
         else{
-            printf("Invalid");
+            printf("Invalid\n");
         }        
     }
     else{
-        printf("Invalid Operator");
+        printf("Invalid Operator\n");
     }
     printf("%d",y);
 }
