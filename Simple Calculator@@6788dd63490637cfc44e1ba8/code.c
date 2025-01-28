@@ -18,10 +18,12 @@ int main(){
         }
         else{
             printf("Invalid\n");
+            return 1;
         }        
     }
     else{
         printf("Invalid Operator\n");
+        return 1;
     }
     printf("%d",y);
 }
