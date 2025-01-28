@@ -13,7 +13,10 @@ int main(){
         y=a * b;
     }
     else if(m== '/'){
-        y=a / b;
+        if(b!=0){
+            y=a/b
+        }
+        
     }
     printf("%d",y);
 }
