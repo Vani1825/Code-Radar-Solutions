@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int ;n
+    int n;
     scanf("%d",&n);
     flag=1;
     if(n==1){
