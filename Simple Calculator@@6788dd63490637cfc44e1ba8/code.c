@@ -14,7 +14,7 @@ int main(){
     }
     else if(m== '/'){
         if(b!=0){
-            y=a/b
+            y=a/b;
         }
         
     }
