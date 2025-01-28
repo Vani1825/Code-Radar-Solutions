@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
+    int ;n
+    scanf("%d",&n);
     flag=1;
     if(n==1){
         printf("Not Prime");
     }
     else{
         for(int i>=1;i<=a;i++){
-            if(a%i==0)
+            if(n%i==0)
                 flag++;  
                 break;  
         }   
