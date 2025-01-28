@@ -17,7 +17,7 @@ int main(){
             y=a/b;
         }
         else{
-            printf("Invalid")
+            printf("Invalid");
         }        
     }
     printf("%d",y);
