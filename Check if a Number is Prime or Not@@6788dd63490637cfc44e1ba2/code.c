@@ -8,7 +8,7 @@ int main(){
             flag++;  
             break;  
     }
-    if(flag==1){
+    if(flag>2){
         printf("Prime");
     }    
     else{
