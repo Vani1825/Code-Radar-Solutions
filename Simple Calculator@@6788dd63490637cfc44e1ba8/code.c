@@ -2,7 +2,7 @@
 int main(){
     int a,b,y;
     char m;
-    scanf("%d %d %c",&a,&b,&c);
+    scanf("%d %d %c",&a,&b,&m);
     if(m=='+'){
         y=a+b;
     }
