@@ -16,7 +16,9 @@ int main(){
         if(b!=0){
             y=a/b;
         }
-        
+        else{
+            printf("Invalid")
+        }        
     }
     printf("%d",y);
 }
