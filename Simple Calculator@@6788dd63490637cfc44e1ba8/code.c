@@ -20,5 +20,8 @@ int main(){
             printf("Invalid");
         }        
     }
+    else{
+        printf("Invalid Operator");
+    }
     printf("%d",y);
 }
