@@ -26,5 +26,5 @@ int main(){
         printf("Invalid Operator\n");
         return 1;
     }
-    printf("%d",y);
+    printf("%d\n",y);
 }
