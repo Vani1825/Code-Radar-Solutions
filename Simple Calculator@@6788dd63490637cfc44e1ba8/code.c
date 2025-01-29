@@ -3,8 +3,7 @@ int main(){
     int a,b,y;
     char m;
     scanf("%d %d", &a, &b);
-    scanf("%*c");
-    scanf("%c",&m);
+    scanf(" %c",&m);
     if(m== '+'){
         y= a + b;
     }
@@ -22,6 +21,9 @@ int main(){
             printf("Error\n");
             return 1;
         }        
+    }
+    else{
+        printf("Error");
     }
     printf("%d\n",y);
 }
