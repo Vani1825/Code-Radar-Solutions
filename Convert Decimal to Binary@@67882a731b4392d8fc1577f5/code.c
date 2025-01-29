@@ -5,8 +5,7 @@ int main(){
     scanf("%d",&a);
     int i=0;
     while(a>0){
-        int n=a%2;
-        binary[i]=n;
+        binary[i]=a%2;
         a=a/2;
         i++;
     }
