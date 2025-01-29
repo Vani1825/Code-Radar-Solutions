@@ -18,7 +18,8 @@ int main(){
             y=a/b;
         }
         else{
-            printf("Error\n");
+            printf("error\n");
+
             return 1;
         }        
     }
