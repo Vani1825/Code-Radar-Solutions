@@ -24,6 +24,7 @@ int main(){
     }
     else{
         printf("Error");
+        return 1;
     }
     printf("%d\n",y);
 }
