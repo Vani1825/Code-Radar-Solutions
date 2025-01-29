@@ -16,7 +16,7 @@ int main(){
     }
     else if(m== '/'){
         if(b!=0){
-            y=(float)a/b;
+            y=a/b;
         }
         else{
             printf("Error\n");
