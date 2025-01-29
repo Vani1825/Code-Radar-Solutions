@@ -19,12 +19,12 @@ int main(){
             y=a/b;
         }
         else{
-            printf("Invalid\n");
+            printf("Error\n");
             return 1;
         }        
     }
     else{
-        printf("Invalid Operator\n");
+        printf("Error\n");
         return 1;
     }
     printf("%d\n",y);
