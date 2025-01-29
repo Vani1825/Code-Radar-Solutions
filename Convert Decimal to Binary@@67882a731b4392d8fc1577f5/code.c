@@ -4,7 +4,7 @@ int main(){
     int binary[20];
     scanf("%d",&a);
     int i=0;
-    while(a!=0){
+    while(a>0){
         int n=a%2;
         binary[i]=n;
         a=a/2;
