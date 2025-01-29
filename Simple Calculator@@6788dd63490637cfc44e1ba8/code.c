@@ -20,12 +20,10 @@ int main(){
         }
         else{
             printf("Error\n");
-            return 1;
         }        
     }
     else{
         printf("Error\n");
-        return 1;
     }
     printf("%d\n",y);
 }
