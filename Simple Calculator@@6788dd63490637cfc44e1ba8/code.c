@@ -6,13 +6,13 @@ int main(){
     scanf("%*c");
     scanf("%c",&m);
     if(m== '+'){
-        y=a + b;
+        y= a + b;
     }
     else if(m== '-'){
-        y=a - b;
+        y= a - b;
     }
     else if(m== '*'){
-        y=a * b;
+        y= a * b;
     }
     else if(m== '/'){
         if(b!=0){
@@ -21,9 +21,6 @@ int main(){
         else{
             printf("Error\n");
         }        
-    }
-    else{
-        printf("Error\n");
     }
     printf("%d\n",y);
 }
