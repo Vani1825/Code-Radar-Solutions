@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a;
-    int binary[200];
+    int binary[20];
     scanf("%d",&a);
     int i=0;
     while(a!=0){
