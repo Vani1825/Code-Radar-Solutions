@@ -8,5 +8,6 @@ int main(){
             printf("%c ",cp);
             cp++;
         }
+        printf("\n");
     }
 }
