@@ -6,5 +6,6 @@ int main(){
         for(r=65;r<=i;r++){
             printf("%c",r);
         }
+        printf("\n");
     }
 }
