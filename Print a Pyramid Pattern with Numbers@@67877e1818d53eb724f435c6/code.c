@@ -3,7 +3,7 @@ int main(){
     int n,i,r,c;
     scnaf("%d",&n);
     for(i=1;i<=n;i++){
-        for(r=1;r<=4;r++){
+        for(r=1;r<=n;r++){
             printf("  ");
         }
         for (c=1;c<=i;c++){
