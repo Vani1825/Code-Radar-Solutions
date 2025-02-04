@@ -18,5 +18,6 @@ int main(){
         for(s=1;s<=n-1;s++){
             printf(" ");
         }
+        printf("\n");
     }
 }
