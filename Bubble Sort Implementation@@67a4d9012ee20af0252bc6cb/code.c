@@ -1,9 +1,17 @@
 #include <stdio.h>
 int bubblesort(arr,n){
-for(inti=0;i<=)
+for(int r=0;r<=n;r++){
+    for(int i=0;i<=n-1-r;i++){
+        int t=arr[i];
+        arr[i]=arr[i+1];
+        arr[i+1]=t;
+    }
+}
 }
 int printArray(arr,n){
-
+for(int i=0;i<=n;i++){
+    printf("%d ",arr[i]);
+}
 }
 int main(){
     int n;
