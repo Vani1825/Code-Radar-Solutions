@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include<stdlib.h>
 void bubblesort(int arr[],int n){
 for(int r=0;r<n-1;r++){
     for(int i=0;i<n-1-r;i++){
@@ -20,7 +19,7 @@ printf("\n");
 int main(){
     int n;
     scanf("%d",&n);
-    int *arr=(int*)malloc(n*sizeof(int));
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
