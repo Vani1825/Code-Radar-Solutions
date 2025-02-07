@@ -1,6 +1,6 @@
 #include <stdio.h>
 int bubblesort(arr,n){
-for(int r=0;r<n;r++){
+for(int r=0;r<n-1;r++){
     for(int i=0;i<=n-1-r;i++){
         int t=arr[i];
         arr[i]=arr[i+1];
