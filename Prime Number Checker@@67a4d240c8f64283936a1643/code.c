@@ -1,7 +1,7 @@
 int isPrime(int num){
     int i,flag=0;
     if(num<=1){
-        printf("0");
+        return 0;
     }
     for(i=2;i<num;i++){
         if(num%i==0){
@@ -10,10 +10,10 @@ int isPrime(int num){
         }
     }    
     if(flag==0){
-        printf("1");
+        return 1;
     } 
          
     else{
-        printf("0");
+        return 0;
     }      
 }
