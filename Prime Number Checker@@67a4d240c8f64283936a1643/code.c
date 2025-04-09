@@ -8,7 +8,10 @@ int isPrime(int num){
     }    
     if(flag==0){
         printf("1");
-    }      
+    } 
+    if(num<=1){
+        printf("0")
+    }     
     else{
         printf("0");
     }      
