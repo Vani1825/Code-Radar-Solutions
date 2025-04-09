@@ -7,12 +7,12 @@ int isPrime(int num){
         }
     }    
     if(flag==0){
-        printf("1");
+        printf("1\n");
     } 
     if(num<=1){
-        printf("0")
+        printf("0\n");
     }     
     else{
-        printf("0");
+        printf("0\n");
     }      
 }
