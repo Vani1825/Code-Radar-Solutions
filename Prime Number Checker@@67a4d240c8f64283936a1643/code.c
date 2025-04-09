@@ -1,11 +1,15 @@
 int isPrime(int num){
-    int i;
+    int i,flag=0;
     for(i=2;i<num;i++){
         if(num%i==0){
-            printf("1");
+            flag=1;
+            break;
         }
-        else{
-            printf("0");
-        }
-    }                
+    }    
+    if(flag==0){
+        printf("1");
+    }      
+    else{
+        printf("0");
+    }      
 }
