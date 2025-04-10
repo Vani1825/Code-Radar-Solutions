@@ -8,6 +8,7 @@ int main(){
     for(i=0;i<len;i++){
        if(s[i]==s[len-1-i]){
         flag=0;
+        break;
        }
     }
     if(flag==0){
