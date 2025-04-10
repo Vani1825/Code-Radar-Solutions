@@ -6,15 +6,15 @@ int main(){
     scanf("%s",s);
     len=strlen(s);
     for(i=0;i<len;i++){
-       if(s[i]==s[len-1-i]){
+       if(s[i]!=s[len-1-i]){
         flag=0;
-        break;
+            break;
        }
     }
     if(flag==0){
-        printf("Yes");
+        printf("No");
     }
     else{
-        printf("No");
+        printf("Yes");
     }
 }
