@@ -4,7 +4,7 @@ int main(){
     char s[110];
     scanf("%s",s);
     for(int i=0;s[i]='\0';i++){
-        if(s[i] == ' '||s[i]=='  '){
+        if(s[i] == ' '||s[i]== '  '){
             count++;
         }
     }
